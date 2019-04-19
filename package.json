@@ -1,0 +1,45 @@
+{
+  "name": "gatsby-plugin-global-context",
+  "version": "1.0.0",
+  "description": "Gatsby plugin to apply context to every page",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/gatsby-plugin-global-context.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "global",
+    "context",
+    "variable"
+  ],
+  "author": "Geoff Kimball <geoff@geoffkimball.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/gatsby-plugin-global-context/issues"
+  },
+  "homepage": "https://github.com/gakimball/gatsby-plugin-global-context#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "sinon": "^7.3.2",
+    "xo": "^0.24.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "xo": {
+    "space": true,
+    "envs": [
+      "mocha"
+    ]
+  },
+  "dependencies": {
+    "invariant": "^2.2.4",
+    "is-object": "^1.0.1"
+  }
+}
